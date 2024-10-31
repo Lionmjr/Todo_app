@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_host_fragment" type="id">nav_host_fragment</item>
+    <item name="about" type="id">about</item>
+    <item name="aboutActivity" type="id">aboutActivity</item>
+    <item name="settingsActivity" type="id">settingsActivity</item>
+    <item name="settings" type="id">settings</item>
+    <item name="profileFragment" type="id">profileFragment</item>
+    <item name="tasksFragment" type="id">tasksFragment</item>
+    <item name="calendarFragment" type="id">calendarFragment</item>
+    <item name="feedFragment" type="id">feedFragment</item>
+    <item name="bottom_navigation" type="id">bottom_navigation</item>
+    <item name="feed_recycler_view" type="id">feed_recycler_view</item>
+</resources>

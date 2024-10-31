@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/feedFragment">
+
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.example.todoapp.FeedFragment"
+        android:label="Feed">
+        <action
+            android:id="@+id/action_feed_to_calendar"
+            app:destination="@id/calendarFragment" />
+        <action
+            android:id="@+id/action_feed_to_tasks"
+            app:destination="@id/tasksFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.todoapp.CalendarFragment"
+        android:label="Calendar">
+        <action
+            android:id="@+id/action_calendar_to_tasks"
+            app:destination="@id/tasksFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tasksFragment"
+        android:name="com.example.todoapp.TasksFragment"
+        android:label="Tasks" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.todoapp.ProfileFragment"
+        android:label="Profile" />
+
+    <activity
+        android:id="@+id/settingsActivity"
+        android:name="com.example.todoapp.SettingsActivity"
+        android:label="Settings" />
+
+    <activity
+        android:id="@+id/aboutActivity"
+        android:name="com.example.todoapp.AboutActivity"
+        android:label="About" />
+
+</navigation>
